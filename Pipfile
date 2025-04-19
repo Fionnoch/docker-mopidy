@@ -15,6 +15,13 @@ mopidy-youtube = "*"
 mopidy-local = "*"
 mopidy-mpd = "*"
 pyopenssl = "*"
+Mopidy-Jellyfin = "*"
+wheel = "*"
+pykka = "*"
+
+Mopidy-YTMusic = "*"
+
+
 
 [requires]
 python_version = "3"
