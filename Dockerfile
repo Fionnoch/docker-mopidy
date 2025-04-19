@@ -1,3 +1,7 @@
+#How to run:
+# docker build --pull --rm -f 'Dockerfile' -t 'fionnoch/mopidy-docker' '.' --debug
+# docker build --no-cache --pull --rm -f 'Dockerfile' -t 'fionnoch/mopidy-docker' '.' --debug
+
 FROM debian:bookworm-slim
 
 RUN set -ex \
